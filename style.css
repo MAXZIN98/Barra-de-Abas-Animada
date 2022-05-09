@@ -2,7 +2,6 @@ html {
     box-sizing: border-box;
     --bgColorMenu : #1d1d27;
     --duration: .7s;    
-
 }
 
 html *,
@@ -94,19 +93,15 @@ body{
     stroke-dasharray: 400;
     
 }
-
 .menu__item.active .icon {
 
-    animation: strok 1.5s reverse;
-    
+    animation: strok 1.5s reverse;  
 }
 
 @keyframes strok {
-
     100% {
 
         stroke-dashoffset: 400;
-
     }
 
 }
@@ -122,7 +117,6 @@ body{
     will-change: transform;
     background-color: var(--bgColorMenu);
     transition: transform var(--timeOut , var(--duration));
-    
 }
 
 .svg-container {
@@ -130,7 +124,6 @@ body{
     width: 0;
     height: 0;
 }
-
 
 @media screen and (max-width: 50em) {
     .menu{
